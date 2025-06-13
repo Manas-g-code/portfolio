@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Manas</title>
+  <link rel="stylesheet" href="me.css" />
+  <script src="https://kit.fontawesome.com/5b9f81e74e.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Devicon for tech logos -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+<link rel="icon" type="icons/png" href="icons/mgfavi.png">
+
+
+
+ 
+</head>
+<body>
+
+
+
+  <header>
+    <nav class="navbar">
+      <!-- <div class="logo">MG</div> -->
+       <a href="#home" class="logo">
+      <h1 class="glitch-text" data-text="MG">MG</h1>
+       </a>
+      <ul class="nav-links">
+        <li><a href="#abt">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <!-- <li><a href="#">Activities</a></li> -->
+        <li><a href="#cont">Contact</a></li>
+      </ul>
+      <div class="fas fa-brain"></div>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <p class="intro">Welcome to my portfolio</p>
+    <div class="cr">
+      Manas Gupta
+    </div>
+    
+    <h2>I'm a <span class="highlight"></span></h2>
+    <p class="description">
+      Building sleek, powerful web apps with modern tech.<br/>
+      I create fast, scalable solutions that actually solve real-world problems.
+    </p>
+    <div class="btn-container">
+      <div class="buttons">
+      <a href="Manas_act_resume.pdf" class="btn download">⬇️ Download Resume</a>
+      <a href="#cont" class="btn contact">📩 Get in Touch</a>
+    </div>
+    </div>
+    <div class="arrow">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ---------------------------------------------------ABOUT------------------------------------------------------- -->
+
+  <section class="about-section" id="abt">
+  <div class="about-container">
+    <div class="about-left">
+      <div class="ab">
+      About Me
+      </div>
+      <p>
+        Hi, I’m a Full Stack Developer with a passion for building clean, responsive, and performance-driven web applications. Currently in my final year of Computer Science Engineering, I love turning ideas into real-world projects that are both functional and visually appealing.
+      </p>
+      <p>
+        I enjoy working across the full web stack—from designing intuitive frontends to building powerful backend systems. My interests include cloud computing, scalable architectures, and exploring new tech that improves how we build and deploy software.
+      </p>
+    </div>
+
+    <div class="about-right">
+      <div class="card">
+        <i class="fas fa-code"></i>
+        <h3>Problem Solving</h3>
+        <p>Breaking down complex challenges into manageable solutions</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-brain"></i>
+        <h3>Quick Learning</h3>
+        <p>Adapting to new technologies and methodologies rapidly</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-users"></i>
+        <h3>Team Collaboration</h3>
+        <p>Working effectively in cross-functional teams</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-bolt"></i>
+        <h3>Adaptability</h3>
+        <p>Quickly adjusting to new tools, challenges, and environments</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!------------------------------------------------------ SKILL--------------------------------------------------------->
+
+
+
+<section class="skills-fullscreen" id="skills">
+  <div class="section-title">
+    Technical Skills
+  </div>
+  <div class="skills-tabs">
+    <button class="tab active" onclick="showSkills('languages', event)">Languages</button>
+    <button class="tab" onclick="showSkills('frameworks', event)">Frameworks</button>
+    <button class="tab" onclick="showSkills('libraries', event)">Libraries</button>
+    <button class="tab" onclick="showSkills('tools', event)">Developer Tools</button>
+    <button class="tab" onclick="showSkills('others', event)">Others</button>
+  </div>
+
+  <div class="skills-display">
+    <div class="skills-content active" id="languages">
+      <div class="skill-grid">
+        <div class="skill-card"><i class="devicon-cplusplus-plain colored"></i><span>C/C++</span></div>
+        <div class="skill-card"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+        <div class="skill-card"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+        <div class="skill-card"><i class="devicon-mysql-plain colored"></i><span>SQL (MySQL)</span></div>
+        <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+        <div class="skill-card"><i class="fab fa-html5"></i><span>HTML</span></div>
+        <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+      </div>
+    </div>
+
+    <div class="skills-content" id="frameworks">
+      <div class="skill-grid">
+        <div class="skill-card"><i class="devicon-react-original colored"></i><span>React</span></div>
+        <div class="skill-card"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+        <div class="skill-card"><i class="devicon-bootstrap-plain colored"></i><span>Bootstrap</span></div>
+        <div class="skill-card"><i class="fas fa-envelope"></i><span>Nodemailer</span></div>
+        <div class="skill-card"><i class="fas fa-lock"></i><span>Bcrypt.js</span></div>
+        <div class="skill-card"><i class="devicon-express-original colored"></i><span>Express.js</span></div>
+        <div class="skill-card"><i class="devicon-mongoose-original colored"></i><span>Mongoose</span></div>
+      </div>
+    </div>
+
+    <div class="skills-content" id="libraries">
+      <div class="skill-grid">
+        
+        <div class="skill-card">
+  <div style="width:40px; height:40px;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="100%" height="100%">
+      <rect width="5" height="10" x="18" y="4" fill="#1a237e"></rect>
+      <rect width="5" height="10" x="18" y="25" fill="#1a237e"></rect>
+      <rect width="5" height="5" x="18" y="17" fill="#fbc02d"></rect>
+      <rect width="5" height="33" x="10" y="13" fill="#1a237e"></rect>
+      <rect width="5" height="10" x="26" y="33" fill="#1a237e"></rect>
+      <rect width="5" height="10" x="26" y="12" fill="#1a237e"></rect>
+      <rect width="5" height="5" x="26" y="25" fill="#ff4081"></rect>
+      <rect width="5" height="33" x="34" y="2" fill="#1a237e"></rect>
+    </svg>
+  </div>
+  <span>Pandas</span>
+</div>
+
+
+        <div class="skill-card">
+  <div style="width:40px; height:40px;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="100%" height="100%">
+      <polygon fill="#00acc1" points="21.196,12.276 14.392,8.842 6.922,12.569 13.912,16.078"></polygon>
+      <polygon fill="#00acc1" points="24.317,13.85 31.451,17.453 24.049,21.169 17.049,17.654"></polygon>
+      <polygon fill="#00acc1" points="33.846,8.893 41.176,12.569 34.619,15.86 27.47,12.254"></polygon>
+      <polygon fill="#00acc1" points="30.69,7.31 24.091,4 17.564,7.258 24.364,10.687"></polygon>
+      <polygon fill="#00acc1" points="25.532,35.725 25.532,44.73 33.525,40.74 33.518,31.732"></polygon>
+      <polygon fill="#00acc1" points="33.514,28.587 33.505,19.674 25.532,23.637 25.532,32.554"></polygon>
+      <polygon fill="#00acc1" points="43.111,26.918 43.111,35.957 36.292,39.359 36.287,30.361"></polygon>
+      <polygon fill="#00acc1" points="43.111,23.756 43.111,14.898 36.279,18.294 36.285,27.225"></polygon>
+      <path fill="#448aff" d="M22.71,23.637l-5.384-2.708v11.699c0,0-6.586-14.012-7.195-15.27 c-0.079-0.163-0.401-0.341-0.484-0.385C8.46,16.353,5,14.601,5,14.601v20.676l4.787,2.566V27.031c0,0,6.515,12.52,6.582,12.657 s0.718,1.455,1.418,1.919c0.929,0.618,4.919,3.016,4.919,3.016L22.71,23.637z"></path>
+    </svg>
+  </div>
+  <span>NumPy</span>
+</div>
+
+        <div class="skill-card"><i class="devicon-matplotlib-plain"></i><span>Matplotlib</span></div>
+        <div class="skill-card"><i class="devicon-tensorflow-original colored"></i><span>TensorFlow</span></div>
+        <div class="skill-card"><i class="devicon-opencv-plain colored"></i><span>OpenCV</span></div>
+        <div class="skill-card"><i class="fas fa-desktop"></i><span>Tkinter</span></div>
+      </div>
+    </div>
+
+    <div class="skills-content" id="tools">
+      <div class="skill-grid">
+        <div class="skill-card"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+         <div class="skill-card"><i class="fab fa-aws" style="color:#FF9900;"></i><span>AWS</span></div>
+
+        <div class="skill-card"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
+        <div class="skill-card"><i class="devicon-mongodb-plain colored"></i><span>MongoDB Compass</span></div>
+        <div class="skill-card"><i class="devicon-postman-plain colored"></i><span>Postman</span></div>
+      </div>
+    </div>
+
+    <div class="skills-content" id="others">
+      <div class="skill-grid">
+        <div class="skill-card"><i class="fas fa-cogs"></i><span>DSA</span></div>
+        <div class="skill-card"><i class="fas fa-desktop"></i><span>Operating System</span></div>
+        <div class="skill-card"><i class="fas fa-cube"></i><span>OOP</span></div>
+        <div class="skill-card"><i class="fas fa-network-wired"></i><span>Computer Networks</span></div>
+        <div class="skill-card"><i class="fas fa-database"></i><span>ADBMS</span></div>
+        <div class="skill-card"><i class="fas fa-share-alt"></i><span>Distributed Systems</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ---------------------------------------CERTIFICATES-------------------------------------- -->
+
+<section class="certifications-section" id="certifications">
+  <div class="section-title">
+    Certifications
+  </div>
+  <div class="cert-container">
+    <div class="cert-slider">
+
+      <div class="cert-track">
+                <!-- Card 1 -->
+        <div class="cert-card">
+          <div class="cert-header">
+            <h3>Foundation of Cloud IoT Edge ML</h3>
+            <a href="#" target="_blank" class="cert-link">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p class="cert-provider">NPTEL</p>
+          <p class="cert-desc">
+            Covers Cloud, IoT, Edge, and ML fundamentals. Learn edge inference and cloud deployment.
+          </p>
+          <div class="cert-tags">
+            <span>Cloud Computing</span><span>Edge Computing</span><span>Machine Learning</span><span>IoT</span>
+          </div>
+          <p>Grade: 73% [Elite]</p>
+          <p>Duration: 10 Weeks</p>
+          <p>Start Date: Feb 2025</p>
+          <p>End Date: Apr 2025</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="cert-card">
+          <div class="cert-header">
+            <h3>Introduction to Relational Databases</h3>
+            <a href="https://coursera.org/share/1c66e0fcd587db9f46130face182cc9b" target="_blank" class="cert-link">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p class="cert-provider">Coursera • IBM</p>
+          <p class="cert-desc">
+            Learn RDBMS fundamentals, SQL basics, and data modeling concepts using IBM tools.
+          </p>
+          <div class="cert-tags">
+            <span>SQL Fundamentals</span><span>Data Modeling</span><span>Relational Schema Design</span><span>Query Optimization Basics</span>
+          </div>
+          <p>Grade: 90.4%</p>
+          <p>Duration: 4 Weeks</p>
+          <p>Start Date: Apr 2024</p>
+          <p>End Date: May 2024</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="cert-card">
+          <div class="cert-header">
+            <h3>React Native</h3>
+            <a href="https://coursera.org/share/cc7c10ca82b4da68a44e3f8bd46eae3a" target="_blank" class="cert-link">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p class="cert-provider">Coursera • Meta</p>
+          <p class="cert-desc">
+            Build cross-platform mobile apps using React Native. Learn UI components, navigation, APIs, and performance optimization for iOS and Android apps.
+          </p>
+          <div class="cert-tags">
+            <span>Cross-Platform Development</span><span>Mobile UI Design</span><span>React Native Components</span><span>App Performance Optimization</span>
+          </div>
+          <p>Grade: 90.45%</p>
+          <p>Duration: 5 Weeks</p>
+          <p>Start Date: Feb 2025</p>
+          <p>End Date: Apr 2025</p>
+        </div>
+
+            <!-- Card 4 -->
+        <div class="cert-card">
+          <div class="cert-header">
+            <h3>Operating System Foundations</h3>
+            <a href="https://coursera.org/share/2cc514f441362cb02dc2b57a1b4a4ef3" target="_blank" class="cert-link">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p class="cert-provider">Coursera • Infosec</p>
+          <p class="cert-desc">
+            Build a strong foundation in Operating System concepts including processes, memory management, file systems, and system security—critical for system-level understanding.
+          </p>
+          <div class="cert-tags">
+            <span>Process Management</span><span>Memory Allocation</span><span>System Security</span><span>File System Handling</span>
+          </div>
+          <p>Grade: 100%</p>
+          <p>Duration: 3 Weeks</p>
+          <p>Start Date: Mar 2025</p>
+          <p>End Date: Apr 2025</p>
+        </div>
+
+        <!-- card 5 -->
+
+        <div class="cert-card">
+          <div class="cert-header">
+            <h3>IoT: Design Concepts and Use Cases</h3>
+            <a href="https://coursera.org/share/2cc514f441362cb02dc2b57a1b4a4ef3" target="_blank" class="cert-link">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p class="cert-provider">NPTEL</p>
+          <p class="cert-desc">
+            Explore core IoT architecture, protocols, and real-world applications. Learn how IoT devices interact, communicate, and solve modern problems.
+          </p>
+          <div class="cert-tags">
+            <span>IoT Architecture</span><span>Real-World Use Cases</span><span>Smart Devices</span><span>Protocols & Communication</span>
+          </div>
+          <p>Grade: 85%</p>
+          <p>Duration: 8 Weeks</p>
+          <p>Start Date: Jul 2024</p>
+          <p>End Date: Dec 2024</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-header">
+            <h3>Foundation of Cloud IoT Edge ML</h3>
+            <a href="#" target="_blank" class="cert-link">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p class="cert-provider">NPTEL</p>
+          <p class="cert-desc">
+            Covers Cloud, IoT, Edge, and ML fundamentals. Learn edge inference and cloud deployment.
+          </p>
+          <div class="cert-tags">
+            <span>Cloud Computing</span><span>Edge Computing</span><span>Machine Learning</span><span>IoT</span>
+          </div>
+          <p>Grade: 73% [Elite]</p>
+          <p>Duration: 10 Weeks</p>
+          <p>Start Date: Feb 2025</p>
+          <p>End Date: Apr 2025</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="cert-card">
+          <div class="cert-header">
+            <h3>Introduction to Relational Databases</h3>
+            <a href="https://coursera.org/share/1c66e0fcd587db9f46130face182cc9b" target="_blank" class="cert-link">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p class="cert-provider">Coursera • IBM</p>
+          <p class="cert-desc">
+            Learn RDBMS fundamentals, SQL basics, and data modeling concepts using IBM tools.
+          </p>
+          <div class="cert-tags">
+            <span>SQL Fundamentals</span><span>Data Modeling</span><span>Relational Schema Design</span><span>Query Optimization Basics</span>
+          </div>
+          <p>Grade: 90.4%</p>
+          <p>Duration: 4 Weeks</p>
+          <p>Start Date: Apr 2024</p>
+          <p>End Date: May 2024</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="cert-card">
+          <div class="cert-header">
+            <h3>React Native</h3>
+            <a href="https://coursera.org/share/cc7c10ca82b4da68a44e3f8bd46eae3a" target="_blank" class="cert-link">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p class="cert-provider">Coursera • Meta</p>
+          <p class="cert-desc">
+            Build cross-platform mobile apps using React Native. Learn UI components, navigation, APIs, and performance optimization for iOS and Android apps.
+          </p>
+          <div class="cert-tags">
+            <span>Cross-Platform Development</span><span>Mobile UI Design</span><span>React Native Components</span><span>App Performance Optimization</span>
+          </div>
+          <p>Grade: 90.45%</p>
+          <p>Duration: 5 Weeks</p>
+          <p>Start Date: Feb 2025</p>
+          <p>End Date: Apr 2025</p>
+        </div>
+
+            <!-- Card 4 -->
+        <div class="cert-card">
+          <div class="cert-header">
+            <h3>Operating System Foundations</h3>
+            <a href="https://coursera.org/share/2cc514f441362cb02dc2b57a1b4a4ef3" target="_blank" class="cert-link">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p class="cert-provider">Coursera • Infosec</p>
+          <p class="cert-desc">
+            Build a strong foundation in Operating System concepts including processes, memory management, file systems, and system security—critical for system-level understanding.
+          </p>
+          <div class="cert-tags">
+            <span>Process Management</span><span>Memory Allocation</span><span>System Security</span><span>File System Handling</span>
+          </div>
+          <p>Grade: 100%</p>
+          <p>Duration: 3 Weeks</p>
+          <p>Start Date: Mar 2025</p>
+          <p>End Date: Apr 2025</p>
+        </div>
+
+        <!-- card 5 -->
+
+        <div class="cert-card">
+          <div class="cert-header">
+            <h3>IoT: Design Concepts and Use Cases</h3>
+            <a href="https://coursera.org/share/2cc514f441362cb02dc2b57a1b4a4ef3" target="_blank" class="cert-link">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p class="cert-provider">NPTEL</p>
+          <p class="cert-desc">
+            Explore core IoT architecture, protocols, and real-world applications. Learn how IoT devices interact, communicate, and solve modern problems.
+          </p>
+          <div class="cert-tags">
+            <span>IoT Architecture</span><span>Real-World Use Cases</span><span>Smart Devices</span><span>Protocols & Communication</span>
+          </div>
+          <p>Grade: 85%</p>
+          <p>Duration: 8 Weeks</p>
+          <p>Start Date: Jul 2024</p>
+          <p>End Date: Dec 2024</p>
+        </div>
+
+      </div>
+    
+    </div>
+  </div>
+</section>
+
+
+<!---------------------------------------------------------- EDUCATION------------------------------------------------------------------ -->
+
+<section class="education-section" id="education">
+  <div class="section-title">Education</div>
+  <div class="education-card">
+    <div class="edu-main">
+      <h3>🎓 Bachelor of Engineering in Computer Science and Engineering</h3>
+      <p class="edu-college">Chandigarh University • 2022-2026</p>
+
+      <div class="edu-coursework">
+        <h4>📚 Relevant Coursework</h4>
+        <div class="tags">
+          <span>Data Structures and Algorithms</span>
+          <span>Database Management Systems</span>
+          <span>Software Engineering</span>
+          <span>Web Development</span>
+          <span>Internet of Things</span>
+          <span>Operating Systems</span>
+          <span>Computer Networks</span>
+          <span>Computer Graphics</span>
+          <span>Cloud Computing</span>
+          <span>Network Security</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-achievements">
+      <h4>👤 Academic Achievements</h4>
+      <div class="achievements">
+        <div class="achievement-card">
+          <strong>Grade</strong>
+          <p>7.87 (Zero backlog)</p>
+        </div>
+        <div class="achievement-card">
+          <strong>Hackathon Winner</strong>
+          <p>First place in University Hackathon for Clean UI/UX Design</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="education-card">
+    <div class="edu-main">
+      <h3>🎓 kendriya Vidyalaya 3BRD AFS Chandigarh</h3>
+      <p class="edu-college">Intermediate (CBSE) • 2021-2022</p>
+
+      <div class="edu-coursework">
+        <h4>📚 Relevant Coursework</h4>
+        <div class="tags">
+          <span>Physics</span>
+          <span>Chemistry</span>
+          <span>Mathematics</span>
+          <span>Computer Science</span>
+          <span>Python</span>
+          <span>SQL</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-achievements">
+      <h4>👤 Academic Achievements</h4>
+      <div class="achievements">
+        <div class="achievement-card">
+          <strong>Grade</strong>
+          <p>90.2%</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+    <div class="education-card">
+    <div class="edu-main">
+      <h3>🎓 kendriya Vidyalaya 3BRD AFS Chandigarh</h3>
+      <p class="edu-college">Matriculation (CBSE) • 2019-2020</p>
+
+      <div class="edu-coursework">
+        <h4>📚 Relevant Coursework</h4>
+        <div class="tags">
+          <span>Physics</span>
+          <span>Chemistry</span>
+          <span>Biology</span>
+          <span>Mathematics</span>
+          <span>Social Studies</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-achievements">
+      <h4>👤 Academic Achievements</h4>
+      <div class="achievements">
+        <div class="achievement-card">
+          <strong>Grade</strong>
+          <p>89.4%</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!----------------------------------------------------- PROJECTS-------------------------------------------------------- -->
+
+<section class="projects-section" id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="project-container">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <h3>PIXPIN – A Visual Discovery Platform</h3>
+      <p class="project-desc">
+        • Developed a <strong>full-stack web app</strong> for users to post, update, and share images with <strong>real-time commenting</strong> features.
+        <br>
+        • Implemented like/dislike, edit/delete, and threaded comment interactions, boosting <strong>user engagement by 75%</strong>.
+        <br>
+        • Added <strong>search functionality</strong> to filter posts by title and description, enhancing content discoverability.
+        <br>
+        • Designed a <strong>responsive UI</strong> with Tailwind CSS and <strong>secured authentication</strong> using JWT and Bcrypt.
+      </p>
+      <div class="tech-tags">
+        <span>MongoDB</span>
+        <span>React</span>
+        <span>Tailwind CSS</span>
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>Bcrypt.js</span>
+        <span>Nodemailer</span>
+        <span>authentication and Authorization</span>
+
+      </div>
+      <div class="buttons">
+        <a href="https://github.com/Manas-g-code/Pixpin.git" class="code-btn"><i class="fab fa-github"></i> Code/Result</a>
+        <!-- <a href="#" class="live-btn"><i class="fas fa-arrow-up-right-from-square"></i> Live</a> -->
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <h3>Handwritten Digit Recognition</h3>
+      <p class="project-desc">
+        • Developed a handwritten digit recognition achieving <strong>95%</strong> classification accuracy on the MNIST dataset.
+        <br>
+        • Trained a <strong>Convolutional Neural Network (CNN)</strong> model with optimized hyper-parameters
+          improved for , prediction reliability.
+          <br>
+        • Integrated a <strong>user-friendly</strong> desktop interface using Tkinter for real-time digit input and instant prediction.
+        <br>
+        • Ensured <strong>97%</strong> model robustness through extensive testing across varied digit styles input noise levels.
+        </p>
+      <div class="tech-tags">
+        <span>Python</span>
+        <span>TensorFlow</span>
+        <span>OpenCV</span>
+        <span>MNIST</span>
+        <span>NumPy</span>
+        <span>Matplotlib</span>
+        <span>Pandas</span>
+        <span>Convolutional Neural Network</span>
+         
+      </div>
+      <div class="buttons">
+        <a href="https://github.com/Manas-g-code/Handwritten-Digit-Recognition.git" class="code-btn"><i class="fab fa-github"></i> Code/Result</a>
+        <!-- <a href="#" class="live-btn"><i class="fas fa-arrow-up-right-from-square"></i> Live</a> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- -----------------------CONTACT------------------------------------------------ -->
+
+    <section class="contact-section" id="cont">
+    <p class="tagline">Let's connect</p>
+    <!-- <.s>Get in Touch</h2> -->
+      <div class="section-title">Get in Touch</div>
+    <p class="subtitle">Have a project in mind or want to discuss new opportunities? I'd love to hear from you!</p>
+
+    <div class="contact-container">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p>Multiple ways to reach out and connect</p>
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <!-- <h4>Email</h4> -->
+            <a href="mailto:mav496167@gmail.com" title="mailto:mav496167@gmail.com">mav496167@gmail.com</a>
+
+
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <!-- <h4>Location</h4> -->
+            <a href="https://maps.app.goo.gl/m5eabg76cBV6XWXk7">Chandigarh, India</a>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-phone-alt"></i>
+          <div>
+            <!-- <h4>Phone</h4> -->
+            <a href="tel:+916287094202" title="tel:+91 6287094202">+91 6287094202</a>
+
+          </div>
+        </div>
+        <p>Follow me on social media:</p>
+        <div class="social-icons">
+          <a href="https://github.com/Manas-g-code"><i class="fab fa-github"></i></a>
+          <a href="http://linkedin.com/in/manasgupta04/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/manas.g_04/"><i class="fab fa-instagram"></i></a>
+          <a href="https://leetcode.com/u/Manas-_-Gupta/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="28" height="28" style="filter: invert(1); vertical-align: middle;"></a>
+          <a href="https://www.naukri.com/code360/profile/igriss" target="_blank">
+          <img src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="Coding Ninjas" width="28" height="28" style="vertical-align: middle;"></a>
+
+
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h3>Send a Message</h3>
+        <p>I'll get back to you as soon as possible</p>
+        <form id="contactForm">
+          <input type="text" name="from_name" placeholder="Your Name" required>
+          <input type="email" name="reply_to" placeholder="Your Email" required>
+          <input type="text" name="subject" placeholder="Subject" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+          <audio id="clickSound" src="sound/clickcontact.wav" preload="auto"></audio>
+          <button id="sendBtn" type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------ FOOTER-------------------------------------------- -->
+
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Manas gupta</h3>
+      <p>Full Stack Developer specializing in modern web technologies</p>
+      <div class="social-icons">
+        <a href="https://github.com/Manas-g-code"><i class="fab fa-github"></i></a>
+        <a href="http://linkedin.com/in/manasgupta04/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/manas.g_04/"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Site Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#abt">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#cont">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Let's Connect</h3>
+      <p>I'm currently available for freelance work or full-time positions. Feel free to reach out if you have a project in mind or just want to chat.</p>
+      <a href="#cont"><strong>Get in Touch</strong></a>
+    </div>
+  </div>
+  <hr />
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Manas Gupta. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="me.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+<script>
+function showSkills(categoryId, event) {
+  const allTabs = document.querySelectorAll('.tab');
+  const allContents = document.querySelectorAll('.skills-content');
+
+  allTabs.forEach(tab => tab.classList.remove('active'));
+  event.target.classList.add('active');
+
+  allContents.forEach(content => content.classList.remove('active'));
+  document.getElementById(categoryId).classList.add('active');
+}
+document.getElementById("year").textContent = new Date().getFullYear();
+
+document.getElementById("sendBtn").addEventListener("click", function () {
+    document.getElementById("clickSound").play();
+  });
+
+  var typed = new Typed('.highlight', {
+      strings: ["Full Stack Developer", "Tech Innovator", "Problem Solver", "UI/UX Enthusiast"],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true
+    })
+
+    
+</script>
+
+
+
+</body>
+</html>
